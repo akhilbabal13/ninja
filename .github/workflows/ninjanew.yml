@@ -23,7 +23,7 @@ jobs:
       id: fetch-secrets
       uses: LanceMcCarthy/akeyless-action@v3
       with:
-        access-id:  p-k1s1txtobwl8am    # (ex: 'p-iwt13fd19ajd') We recommend storing this as a GitHub Actions secret
+        access-id:  p-ohhrnivzbmh4om    # (ex: 'p-iwt13fd19ajd') We recommend storing this as a GitHub Actions secret
         static-secrets: '{"/ninja/gittest":"my_first_secret"}'
         
     - name: Use Outputs
